@@ -4,8 +4,14 @@
 
 In the project toolbox-react-redux, you can run:
 
+Install
+### `npm i`
+
+Run
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+![https://github.com/sumelio/toolbox-app/blob/master/011.png](https://github.com/sumelio/toolbox-app/blob/master/011.png)
 
 Test is not available yet
 
@@ -16,12 +22,18 @@ Test is not available yet
 
 In the project toolbox-express, you can run:
 
+Install
+### `npm i`
+
+Run
 ### `node server.js`
 
 Execute unit test
 
 ### `npm test`
 
+
+![https://github.com/sumelio/toolbox-app/blob/master/03.png](https://github.com/sumelio/toolbox-app/blob/master/03.png)
 
 # Docker compose
 
@@ -63,4 +75,4 @@ front_1_619a5bfd161a |
 
 ```
 
-
+  ![https://github.com/sumelio/toolbox-app/blob/master/01.png](https://github.com/sumelio/toolbox-app/blob/master/01.png)
