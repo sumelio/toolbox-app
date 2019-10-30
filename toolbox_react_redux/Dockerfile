@@ -4,8 +4,7 @@ FROM node:8
 WORKDIR /app
 
 #Copying package.json to Docker Image
-COPY package.json /app
-COPY src /app/src
+COPY . /app/
 
 #Installing all dependencies.
 RUN npm install
