@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  backend:
+    build: ./toolbox-express
+    ports:
+      - '4000:4000'
+
+  front:
+    build: ./toolbox_react_redux
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./toolbox_react_redux:/app
+    depends_on: 
+      - backend
+
